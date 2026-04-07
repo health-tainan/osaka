@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>京阪五天四夜：終極導航與行程全攻略</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', sans-serif; background-color: #f8fafc; color: #334155; }
+        .hero-bg { background: linear-gradient(135deg, #e0e7ff 0%, #fce7f3 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-3px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1); }
+        .gradient-text { background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .timeline-dot { width: 14px; height: 14px; border-radius: 50%; border: 3px solid white; position: absolute; left: -31px; top: 4px; box-shadow: 0 0 0 1px #cbd5e1; }
+        .nav-badge { background-color: #f1f5f9; border: 1px solid #cbd5e1; color: #475569; padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600; display: inline-flex; items-center; gap: 4px; margin-top: 4px; }
+        .train-badge { background-color: #e0f2fe; color: #0369a1; border-color: #bae6fd; }
+        .exit-badge { background-color: #fce7f3; color: #be185d; border-color: #fbcfe8; }
+        .alert-pulse { animation: pulse 2s infinite; }
+        .shopping-badge { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white; padding: 2px 8px; border-radius: 999px; font-size: 0.75rem; font-weight: bold; margin-left: 8px; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.6; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body class="antialiased pb-16">
+
+    <!-- Header Section -->
+    <header class="hero-bg py-10 px-4 rounded-b-3xl shadow-sm mb-8 relative">
+        <div class="max-w-4xl mx-auto relative z-10 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold mb-3 tracking-wider border border-indigo-200">終極導航・天王寺升級版</span>
+            <h1 class="text-3xl md:text-4xl font-extrabold text-slate-800 mb-3 leading-tight">京阪五天四夜 <br><span class="bg-gradient-to-r from-indigo-500 to-pink-500 gradient-text">神貓與達摩導航攻略</span></h1>
+            <p class="text-slate-600 text-sm md:text-base max-w-2xl mx-auto mb-4">時間、交通、出口、車廂秘訣一目了然！<br>全程建議使用 Apple Pay 綁定 Suica 逼卡搭車。</p>
+            <div class="flex justify-center gap-2">
+                <span class="bg-white/80 px-3 py-1 rounded text-xs font-bold shadow-sm">出發: 06:35</span>
+                <span class="bg-white/80 px-3 py-1 rounded text-xs font-bold shadow-sm">住宿: 九條站</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4">
+        
+        <!-- Day 1 -->
+        <section class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-blue-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-black text-xl shadow-md">D1</div>
+                <h2 class="text-xl font-bold text-slate-800">極限出發 ➔ 臨空城 ➔ 道頓堀</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 card-hover">
+                <div class="border-l-2 border-slate-200 pl-6 pb-2 space-y-6 relative">
+                    
+                    <div class="relative">
+                        <div class="timeline-dot bg-blue-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-blue-600 font-bold text-sm">03:15 - 06:35</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">前往小港機場 ＆ 起飛 <span class="text-xs text-red-500 ml-2 alert-pulse"><i class="fa-solid fa-clock"></i> 03:00 鬧鐘</span></h3>
+                                <p class="text-slate-600 text-sm mt-1">搭乘預約好的接送專車（行李多務必叫休旅車）。04:30 抵達機場報到。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-blue-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-blue-600 font-bold text-sm">10:35 - 12:00</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">抵達關西 ➔ 臨空城 Outlet</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 南海電鐵/JR (1站, 6分)</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 臨空城 出口4</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2">出站後立刻找寄物櫃！午餐於園區內享用。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-blue-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-blue-600 font-bold text-sm">15:30 - 16:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">前往九條站 (飯店 Check-in)</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 南海 ➔ 難波 轉 阪神 ➔ 九條 (共約70分)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 南海搭車頭，轉乘最近</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 九條站 出口1或2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-blue-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-blue-600 font-bold text-sm">17:30 - 21:00</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">心齋橋 ＆ 道頓堀晚餐 <span class="shopping-badge">狂掃藥妝</span></h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 阪神難波線 (免換車, 8分)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 搭中間偏後車廂</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 大阪難波站 出口14/15B</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2">和跑跑人合照，無預約吃連鎖燒肉/大阪燒。**主力採買藥妝店！**</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 2 -->
+        <section class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-pink-500 text-white w-10 h-10 rounded-lg flex items-center justify-center font-black text-xl shadow-md">D2</div>
+                <h2 class="text-xl font-bold text-slate-800">京都：防鐵腿與財神搶時大作戰</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 card-hover">
+                <div class="border-l-2 border-slate-200 pl-6 pb-2 space-y-6 relative">
+                    
+                    <div class="relative">
+                        <div class="timeline-dot bg-pink-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-pink-600 font-bold text-sm">08:00 - 10:15</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">九條 ➔ 伏見稻荷大社</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 阪神轉御堂筋至淀屋橋 轉 京阪電車 (約60分)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 京阪搭車頭</span>
+                                </div>
+                                <p class="text-slate-500 text-xs mt-2 border border-slate-200 rounded p-1.5 inline-block">🛡️ 走到千本鳥居拍完就折返，保留腳力！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-pink-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-pink-600 font-bold text-sm">10:15 - 13:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">伏見 ➔ 清水寺 ＆ 二三年坂午餐</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 京阪電車至 清水五條站 (10分)</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 出口 4 (需步行20分上坡)</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2 font-bold text-rose-500">務必於 13:30 準備離開，確保下午行程！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-pink-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-pink-600 font-bold text-sm">13:30 - 14:45</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">清水寺 ➔ 檀王法林寺 (黑貓)</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-bus"></i> 搭206/86公車 或 走回京阪搭至 三條站</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 三條站 出口8/9 (步行2分)</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-1">寺務所 16:00 關門。請購「主水黑貓」防小人公仔。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-pink-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-pink-600 font-bold text-sm flex flex-col">
+                                <span>15:15 - 16:30</span>
+                                <span class="text-xs text-rose-500 mt-0.5"><i class="fa-solid fa-bolt"></i> 16:00社務所關門</span>
+                            </div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">三條 ➔ 御金神社 (洗錢搶福包)</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 地鐵東西線至 烏丸御池站 (3分)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 搭車尾最後一節</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 出口 2 (步行5分)</span>
+                                </div>
+                                <p class="text-amber-600 text-sm mt-2 font-bold bg-amber-50 p-1.5 rounded">先排隊買「黃金福包」，買完再去手水舍洗錢！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-pink-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-pink-600 font-bold text-sm">16:30 - 20:00</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">鴨川散步 ＆ 河原町晚餐</h3>
+                                <p class="text-slate-600 text-sm mt-1">晚餐後慢慢搭京阪轉地鐵回九條站休息。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 3 -->
+        <section class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-teal-500 text-white w-10 h-10 rounded-lg flex items-center justify-center font-black text-xl shadow-md">D3</div>
+                <h2 class="text-xl font-bold text-slate-800">北大阪：勝尾寺 ＆ 萬博血拚</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 card-hover">
+                <div class="border-l-2 border-slate-200 pl-6 pb-2 space-y-6 relative">
+                    
+                    <div class="relative">
+                        <div class="timeline-dot bg-teal-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-teal-600 font-bold text-sm">09:30 - 10:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">九條 ➔ 箕面萱野站</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 轉御堂筋線 一路坐到底直達 (45分)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 搭車頭第1/2節，離手扶梯近</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-teal-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-teal-600 font-bold text-sm">10:30 - 12:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">轉乘公車 ➔ 勝尾寺 (滿山達摩)</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-bus"></i> 北口轉運站搭乘社區巴士 (20分)</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2 font-bold text-rose-500">⚠️ 下車第一時間先拍「回程公車時刻表」設鬧鐘！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-teal-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-teal-600 font-bold text-sm">12:30 - 16:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">勝尾寺 ➔ 萬博 LaLaport 購物</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 搭公車回站，轉公車/單軌至 萬博紀念公園站</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 出剪票口左轉過天橋</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2">午餐、看太陽之塔。主攻無印良品、Loft、3COINS。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-teal-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-teal-600 font-bold text-sm">17:30 - 20:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">萬博 ➔ 梅田夜景與晚餐</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 單軌至千里中央 轉 御堂筋至 梅田 (35分)</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 梅田 出口5 (往藍天大廈)</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2">順路在百貨地下街買 Pocky 界 LV「Bâton d'or」。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Day 4 -->
+        <section class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-orange-500 text-white w-10 h-10 rounded-lg flex items-center justify-center font-black text-xl shadow-md">D4</div>
+                <h2 class="text-xl font-bold text-slate-800">環球影城 ➔ 甜點 ➔ 天王寺血拚 ➔ 新世界</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 card-hover">
+                <div class="border-l-2 border-slate-200 pl-6 pb-2 space-y-6 relative">
+                    
+                    <div class="relative">
+                        <div class="timeline-dot bg-orange-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-orange-600 font-bold text-sm">08:00 - 15:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">九條 ➔ 日本環球影城 (USJ)</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 阪神至西九條 轉 JR夢咲線 (超快10分)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 阪神搭車尾，轉乘JR最近</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2 font-bold text-blue-600">入園立刻開 App 抽瑪利歐整理券！提早在下午三點半撤退。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-orange-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-orange-600 font-bold text-sm">15:30 - 16:00</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">環球城 ➔ 飯店放戰利品</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 原路返回。JR搭車頭，轉乘阪神最近</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-orange-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-orange-600 font-bold text-sm">16:00 - 17:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">九條 ➔ 心齋橋 HARBS 下午茶</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 阪神難波線 (免換車, 8分)</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 大阪難波 出口14/大丸連通道</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-1">吃神級千層蛋糕補充體力，準備接下來的血拚！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-orange-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-orange-600 font-bold text-sm">17:30 - 19:30</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">心齋橋 ➔ 天王寺商圈 <span class="shopping-badge">買鞋買衣</span></h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 御堂筋線至 天王寺站 (6分, ¥240)</span>
+                                    <span class="nav-badge"><i class="fa-regular fa-lightbulb"></i> 任何車廂皆可</span>
+                                    <span class="nav-badge exit-badge"><i class="fa-solid fa-person-walking-arrow-right"></i> 往 MIO 或 Q's Mall 出口</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2">**服飾與球鞋主戰場！** 這裡尺寸最齊全，逛起來寬敞不用跟觀光客擠。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative">
+                        <div class="timeline-dot bg-orange-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-orange-600 font-bold text-sm">19:30 - 21:00</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">天王寺 ➔ 新世界 (通天閣串炸)</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-person-walking"></i> 散步前往 (約 10-15 分鐘) 或 搭1站地鐵</span>
+                                </div>
+                                <p class="text-slate-600 text-sm mt-2">從天王寺提著戰利品，散步或搭地鐵(動物園前站)到新世界。玩復古射擊遊戲，吃「八重勝」串炸當完美晚餐！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Day 5 -->
+        <section class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-indigo-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-black text-xl shadow-md">D5</div>
+                <h2 class="text-xl font-bold text-slate-800">滿載而歸，搭機返台</h2>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 card-hover">
+                <div class="border-l-2 border-slate-200 pl-6 pb-2 space-y-6 relative">
+                    <div class="relative">
+                        <div class="timeline-dot bg-indigo-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-indigo-600 font-bold text-sm">08:00 - 09:15</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">九條 ➔ 關西機場</h3>
+                                <div class="mt-2 flex flex-wrap gap-2">
+                                    <span class="nav-badge train-badge"><i class="fa-solid fa-train"></i> 難波轉 南海電鐵直達機場</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="timeline-dot bg-indigo-500"></div>
+                        <div class="flex flex-col md:flex-row gap-1 md:gap-4">
+                            <div class="md:w-1/4 text-indigo-600 font-bold text-sm">11:35</div>
+                            <div class="md:w-3/4">
+                                <h3 class="text-base font-bold text-slate-800">班機起飛 ✈️</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
